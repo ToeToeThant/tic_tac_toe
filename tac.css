@@ -1,0 +1,70 @@
+body{
+  background-image: url(haha.jpg);
+    
+}
+h1{
+  text-align: center;
+  color:#e420a1 ;
+  font-family:Jokerman;
+  font-size: 30px;
+  text-shadow: #f7b71d 5px 2px 4px;
+}
+.clearfix{
+  clear: both;
+}
+#box{
+  width: 350px;
+  overflow: auto;
+  margin: 40px auto;
+  background: pink;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+#message{
+  background: #333;
+  color: #fff;
+}
+#gameBoard li{
+  float: left;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  background:  #a7d129;
+  color: #f8eeb4;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+#gameBoard li:hover, #reset:hover , #start:hover{
+  cursor: pointer;
+  background: #f7b71d;
+  color: #000;
+}
+#start{
+  border: 0;
+  background:#f8eeb4 ;
+  color:chocolate;
+  width: 20%;
+  padding: 15px;
+  border-radius: 5px;
+}
+#reset{
+  border: 0;
+  background: #616f39;
+  color: #a7d129;
+  width: 20%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.o{
+  color: green !important;
+}
+.x{
+  color: red !important;
+}
+footer{
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
